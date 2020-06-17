@@ -1,0 +1,21 @@
+img{
+    width: 70px;
+}
+
+div{
+    background-color: rgb(129, 162, 213);
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
