@@ -65,8 +65,8 @@ function sum(a, b, z){
     } else {
         var c = a + b + z;
     }
-    console.log(c);
-    return c;
+    console.log(c);// shows the value
+    return c; // give you the value
 }
 
 var num3 = sum(5, 7, 14) + sum(1, 2, 3)
@@ -77,17 +77,44 @@ console.log(num3 + num4)
 
 
 
-
-
-
-
-
-
-
-
-
 // Arguments & Parameters
 
-// Arrays
 
-// Psuedo Code
+
+
+
+
+
+
+
+
+// Arrays    0,1,2,3,4,5,6,7,8,9
+var myArr = [1,2,3,4,5,6,7,8,9,10];
+var a = 3
+var b = 5
+
+//       1     2                4
+for(var i=0; i<myArr.length/2; i++){
+    //3 
+    console.log(myArr[i]); // 1 -> 2 -> 3 -> 4... -> 10
+}
+console.log(i) // 10
+
+
+// Pseudo Code
+// Print all the values from 1 - 100;
+
+// first create a for loop
+// start i at 1
+// end at 101
+// increment by 1
+// console log variable i
+
+for(var i=1; i<=100; i++){
+    console.log(i);
+    console.log(1)
+    console.log(2)
+    console.log(3)
+}
+
+
