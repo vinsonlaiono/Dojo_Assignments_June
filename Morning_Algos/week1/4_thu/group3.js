@@ -10,7 +10,7 @@ output: 1 2 3 4 5 6 7 8 9 10 ... 254 255
 function print1To255() {
   // code goes here
 }
-
+o;
 /*
 2. Print Odds 1-255
 PrintOdds1To255()
@@ -27,38 +27,25 @@ function printOdds1To255() {
 // output: 0 0 , 1 1, 2 3, 3 6, 4 10, 5 15 ...
 function PrintIntsAndSum0To255() {
   // code goes here
-  // declare sum variable initialize to 0
-  // build for loop start at 0 end at 255 inclusive
-  // increment by 1
-  // console.log(i)
-  // add i to sum
-  // console.log(sum)
-
-  var sum = 0;
-  for(var i=0; i<=255; i++){
-    console.log(i);
-    sum = sum + i;
-    // sum += i;
-    console.log(sum);
-  }
 }
-PrintIntsAndSum0To255()
-
 
 // 4. Iterate and Print Array
 // Iterate through a given array, printing each value.
 
 // Input array: [1,4,65,34,78]
 // Output: 1, 4, 65, 34, 78
-function printArrayVals(arr) {
-  // code goes here
-}
+function printArrayVals(arr) {}
 
 // 5. Find and Print Max
 // PrintMaxOfArray(arr)
 // Given an array, find and print its largest element.
+
+var array = [4,7,3,88,16,11];
+var largest = array[0]
 function PrintMaxOfArray(arr) {
-  // code goes here
+  for(i = 0; i =< arr.length; i++){
+  }
+
 
 }
 
@@ -107,25 +94,10 @@ function PrintMaxMinAverageArrayVals(arr) {
 }
 // 12. Shift Array Values
 // ShiftArrayValsLeft(arr)
-// Given an array, move all values forward (to the left) by one index, dropping the first value and 
-// leaving a 0 (zero) value at the end of the array.
-      //   i i+1
-// input: [1,2,3,4,5,6]
-// output: [2,3,4,5,6,0]
+// Given an array, move all values forward (to the left) by one index, dropping the first value and leaving a 0 (zero) value at the end of the array.
 function ShiftArrayValsLeft(arr) {
   // code goes here
-  // build a for loop
-  // start loop at 0
-  // end loop at arr.length
-  // inside loop assign current positon of i to be arr[i+1]
-  // outside the  reassign the last value to be zero
-  for(var i=0; i<arr.length;i++){
-    arr[i] = arr[i+1];
-  }
-  arr[arr.length-1] = 0;
-  return arr;
 }
-// console.log(ShiftArrayValsLeft([1,2,3,4,5,6]))
 // 13. Swap String For Array Negative Values
 // SwapStringForArrayNegativeVals(arr)
 // Given an array of numbers, replace any negative values with the string 'Dojo'.

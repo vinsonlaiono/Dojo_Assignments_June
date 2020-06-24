@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  min-height: 400px;
+  width: 970px;
+  background-color: #062134;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.nav-items {
+  display: flex;
+}
+.nav-items p {
+  margin-left: 50px;
+}
+
+.navigation {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 15px 50px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.navigation h1 {
+  font-weight: lighter;
+}
+
+.special {
+  color: #1889d0;
+  text-decoration: none;
+}
+
+.main-content {
+  background-color: white;
+  padding: 20px;
+}
+.main-content img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.prod {
+  height: 230px;
+  width: 29.5%;
+  background-color: #2075aa;
+  padding: 14px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mid-col {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.prod-header img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.prod-header {
+  display: flex;
+  align-items: center;
+}
+.prod p {
+  font-size: small;
+}
+
+button {
+  color: white;
+  background-color: #1889d0;
+  padding: 10px 40px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 40px;
+  font-size: large;
+}
+
+.col{
+  height: 165px;
+  width: 33%;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  /* padding: 10px; */
+}
+.col-header{
+  font-size: 19px;
+  margin-bottom:15px;
+}
+
+.bottom-col{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.col img{
+  width: 100%;
+}
+.mid-col-bottom p{
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.mid-col-bottom{
+  padding-top:42px
+}
+
+.messageBox{
+  background-color: #cce8fa;
+  padding:30px 30px;
+  color: grey;
+  font-style: italic;
+}
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  margin-left:30px;
+  margin-top:-8px;
+  border-top: 20px solid #cce8fa;
+}
+
+.quoter{
+  margin-top: 10px;
+  color: #062134;
+}
+
+.footer{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
+.footer p{
+  margin-right: 35px;
+  color: #2075aa;
+  font-family: 'Montserrat', sans-serif;
+  font-size: smaller;
+
+}

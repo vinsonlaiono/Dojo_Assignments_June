@@ -1,12 +1,12 @@
 /* 
 Predict the output:
 
-TEAM MEMBERS:  vinson, chris 
-// Benjamin here, which tab am I supposed to go to?
+TEAM MEMBERS:  
+
 */
 function a(arr) {
     b = arr.length;
-
+  
     var temp = arr[b - 1];
     arr[b - 1] = arr[0];
     arr[0] = temp;
@@ -17,6 +17,7 @@ function a(arr) {
   console.log(a([2, 4]));
   
   // output: ?
+  
   
   
   // 2

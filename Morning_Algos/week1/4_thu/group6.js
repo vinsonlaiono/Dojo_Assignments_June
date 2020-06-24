@@ -8,7 +8,7 @@ Print all the integers from 1 to 255.
 output: 1 2 3 4 5 6 7 8 9 10 ... 254 255
 */
 function print1To255() {
-  // code goes here
+  for ()
 }
 
 /*
@@ -27,32 +27,39 @@ function printOdds1To255() {
 // output: 0 0 , 1 1, 2 3, 3 6, 4 10, 5 15 ...
 function PrintIntsAndSum0To255() {
   // code goes here
-  // declare sum variable initialize to 0
-  // build for loop start at 0 end at 255 inclusive
-  // increment by 1
-  // console.log(i)
-  // add i to sum
-  // console.log(sum)
-
-  var sum = 0;
-  for(var i=0; i<=255; i++){
+  var runningSum = 0;
+  for (var i = 0; i <= 255; i++){ 
+    runningSum += i;
+    runningSum = runningSum + i;
     console.log(i);
-    sum = sum + i;
-    // sum += i;
-    console.log(sum);
+    console.log(runningSum);
   }
-}
-PrintIntsAndSum0To255()
+}   
+
+
+
+
+
+
+
+
 
 
 // 4. Iterate and Print Array
 // Iterate through a given array, printing each value.
-
+// can you see this
 // Input array: [1,4,65,34,78]
 // Output: 1, 4, 65, 34, 78
-function printArrayVals(arr) {
-  // code goes here
+//-- we need to establish the values of the array as a function.--//
+
+function printArrayVals(arr){
+  for (var i=0; <=arr.length  i; i++=){
+    console.log(arr[i])
+  }
 }
+
+printArrayVals([1,4,65,34,78])
+
 
 // 5. Find and Print Max
 // PrintMaxOfArray(arr)
@@ -107,25 +114,10 @@ function PrintMaxMinAverageArrayVals(arr) {
 }
 // 12. Shift Array Values
 // ShiftArrayValsLeft(arr)
-// Given an array, move all values forward (to the left) by one index, dropping the first value and 
-// leaving a 0 (zero) value at the end of the array.
-      //   i i+1
-// input: [1,2,3,4,5,6]
-// output: [2,3,4,5,6,0]
+// Given an array, move all values forward (to the left) by one index, dropping the first value and leaving a 0 (zero) value at the end of the array.
 function ShiftArrayValsLeft(arr) {
   // code goes here
-  // build a for loop
-  // start loop at 0
-  // end loop at arr.length
-  // inside loop assign current positon of i to be arr[i+1]
-  // outside the  reassign the last value to be zero
-  for(var i=0; i<arr.length;i++){
-    arr[i] = arr[i+1];
-  }
-  arr[arr.length-1] = 0;
-  return arr;
 }
-// console.log(ShiftArrayValsLeft([1,2,3,4,5,6]))
 // 13. Swap String For Array Negative Values
 // SwapStringForArrayNegativeVals(arr)
 // Given an array of numbers, replace any negative values with the string 'Dojo'.
